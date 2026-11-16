@@ -1,0 +1,24 @@
+# Audio-Visual Deepfake Detection - prototype dependencies
+# Versions below are the exact set this prototype was verified with
+# (Windows 11, Python 3.11.9, CPU only). Newer versions usually work too.
+#
+# Install with:  pip install -r requirements.txt
+
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# audio
+librosa==0.11.0
+soundfile==0.14.0
+imageio-ffmpeg==0.7.0      # bundles an FFmpeg binary -> no manual install
+
+# video / faces
+opencv-contrib-python==5.0.0.93
+mediapipe==1.2.0
+
+# plots + UI
+matplotlib==3.11.2
+gradio==6.31.0

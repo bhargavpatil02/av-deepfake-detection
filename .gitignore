@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+outputs/
+samples/sample_*.mp4
+models/*.task
+models/*.joblib
+reports/features.csv
+reports/metrics.json
+data/
+.cloud-attachments/
+.vscode/
+.idea/
+*.env
